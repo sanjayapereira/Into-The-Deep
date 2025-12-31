@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Our Other Works - Ocean Deep Dive</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .page-container {
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #001a33, #000000);
+            color: white;
+            padding: 80px 20px;
+        }
+        
+        .content-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #87CEEB;
+            font-size: 48px;
+            margin-bottom: 30px;
+            text-shadow: 0 0 20px rgba(135, 206, 235, 0.5);
+            text-align: center;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .gallery-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(135, 206, 235, 0.3);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            background: rgba(135, 206, 235, 0.1);
+            border-color: rgba(135, 206, 235, 0.6);
+            transform: translateY(-5px);
+        }
+        
+        .gallery-item h3 {
+            color: #87CEEB;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        
+        .gallery-item p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 12px 30px;
+            background: rgba(135, 206, 235, 0.2);
+            border: 2px solid rgba(135, 206, 235, 0.5);
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background: rgba(135, 206, 235, 0.3);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="content-wrapper">
+            <h1>Our Other Works</h1>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <h3>Volcano Explorer</h3>
+                    <p>An interactive journey through the world's most active volcanoes and their geological formations.</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <h3>Space Odyssey</h3>
+                    <p>Travel through the solar system and beyond, exploring planets, stars, and galaxies.</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <h3>Rainforest Adventure</h3>
+                    <p>Discover the biodiversity of tropical rainforests and learn about conservation efforts.</p>
+                </div>
+                
+                <div class="gallery-item">
+                    <h3>Arctic Expedition</h3>
+                    <p>Experience the frozen wilderness of the Arctic and meet its unique wildlife.</p>
+                </div>
+            </div>
+            
+            <a href="ocean.html" class="back-link">← Back to Ocean Dive</a>
+        </div>
+    </div>
+</body>
+</html>
+

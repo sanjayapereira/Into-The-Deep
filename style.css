@@ -1,0 +1,620 @@
+/* ========================================
+   GLOBAL STYLES
+   ======================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+.hero {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+/* Background video styling */
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover entire hero section */
+  z-index: -1; /* Behind overlay text */
+}
+
+/* Overlay on top of video with centered text */
+.hero-overlay {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+  z-index: 1;
+  text-align: center;
+  padding: 0px;
+  /* Subtle dark gradient for text readability */
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+/* Hero title styling with animation */
+.hero-overlay h1 {
+    font-size: 4em;
+    letter-spacing: 3px;
+    animation: heroTextReveal 2s ease-out;
+}
+
+/* Hero text reveal animation */
+@keyframes heroTextReveal {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(30px);
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+        filter: blur(0);
+    }
+}
+
+/* ========================================
+   BODY & GENERAL LAYOUT
+   ======================================== */
+
+content {
+  padding: 50px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+/* ========================================
+   OCEAN CONTAINER
+   ======================================== */
+
+/* Main ocean container with gradient background simulating depth */
+.ocean-container {
+    position: relative;
+    top:0;
+    width: 100%;
+    
+    /* Height represents 11,000m ocean depth (11,000m × 16px/m = 176,000px) */
+    height: 178500px;
+    
+    /* Gradient simulates color change at different ocean depths */
+    background: linear-gradient(
+        to bottom,
+        #87CEEB 0%,      /* Surface - Light blue (Sunlight Zone) */
+        #4682B4 1.8%,   /* 200m - Steel blue (Twilight Zone starts) */
+        #191970 9.1%,   /* 1000m - Midnight blue (Midnight Zone) */
+        #000080 36.4%,  /* 4000m - Navy (Abyssal Zone) */
+        #000033 54.5%,  /* 6000m - Dark navy (Hadal Zone) */
+        #000000 100%    /* 11000m - Pure black (Bottom of Mariana Trench) */
+    );
+}
+
+/* ========================================
+   FIXED UI INDICATORS
+   ======================================== */
+
+/* Depth indicator - shows current depth in meters (top left) */
+.depth-indicator {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1000;
+    border: 2px solid rgba(135, 206, 235, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px); /* Glass effect */
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for depth indicator */
+.depth-indicator:hover {
+    transform: scale(1.05);
+    border-color: rgba(135, 206, 235, 0.8);
+}
+
+/* Pressure indicator - shows atmospheric pressure (top right) */
+.pressure-indicator {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(139, 0, 0, 0.85);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1000;
+    border: 2px solid rgba(255, 100, 100, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for pressure indicator */
+.pressure-indicator:hover {
+    transform: scale(1.05);
+    border-color: rgba(255, 100, 100, 0.8);
+}
+
+/* ========================================
+   OCEAN ZONES
+   ======================================== */
+
+/* Zone markers*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+.zone-marker {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 18px 0;
+    font-family: 'Quicksand', sans-serif;
+
+    /* STRONG bright aqua text */
+    color: #b8f9ff; /* you can try #cfffff or #e7ffff for even brighter */
+
+    /* Powerful glow */
+    text-shadow:
+        0 0 6px rgba(180, 255, 255, 1),
+        0 0 14px rgba(120, 230, 255, 1),
+        0 0 26px rgba(80, 200, 255, 1),
+        0 0 40px rgba(80, 180, 255, 1);
+
+    border-top: 1px solid rgba(180, 240, 255, 0.5);
+    border-bottom: 1px solid rgba(180, 240, 255, 0.5);
+
+    filter: drop-shadow(0 0 18px rgba(80, 200, 255, 0.9));
+}
+
+/* ========================================
+   OCEAN FACTS
+   ======================================== */
+
+/* Ocean fact boxes - educational information at various depths */
+.ocean-fact {
+    position: absolute;
+    width: 90%;
+    max-width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 100, 150, 0.9);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+    border: 2px solid rgba(135, 206, 235, 0.6);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    backdrop-filter: blur(8px); /* Glass morphism effect */
+    margin: 10px 0;
+    animation: factPulse 4s ease-in-out infinite; /* Subtle pulsing */
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for ocean facts */
+.ocean-fact:hover {
+    transform: translateX(-50%) scale(1.05);
+    box-shadow: 0 8px 35px rgba(135, 206, 235, 0.5);
+}
+
+/* Pulsing border animation for facts */
+@keyframes factPulse {
+    0%, 100% {
+        border-color: rgba(135, 206, 235, 0.6);
+    }
+    50% {
+        border-color: rgba(135, 206, 235, 0.9);
+    }
+}
+
+/* Highlighted text within facts */
+.ocean-fact strong {
+    color: #87CEEB;
+    font-weight: bold;
+}
+
+/* ========================================
+   OCEAN CREATURES
+   ======================================== */
+
+/* Creature container - flexbox for image and name label */
+.creature {
+    position: absolute;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+    transform: none;
+    transition: all 0.3s ease;
+    will-change: transform; /* Optimize for animations */
+    display: flex;
+    flex-direction: column; /* Stack image above name */
+    align-items: center;
+    gap: 8px;
+}
+
+.creature-visual {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Hover effect - enlarge and brighten creature */
+.creature:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+    z-index: 100; /* Bring to front on hover */
+}
+
+/* Enhanced name label on creature hover */
+.creature:hover .creature-name {
+    background: rgba(0, 0, 0, 0.95);
+    border-color: rgba(135, 206, 235, 0.9);
+    box-shadow: 0 4px 20px rgba(135, 206, 235, 0.4);
+}
+
+/* Creature heading (for text-only creatures) */
+.creature h3 {
+    color: #87CEEB;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Creature description (for text-only creatures) */
+.creature p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Creature size info (for text-only creatures) */
+.creature-size {
+    color: #FFD700;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Creature images with swimming animation */
+.creature img {
+    --creature-scale: 1;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    filter: drop-shadow(0 0 10px rgba(135, 206, 235, 0.3)); /* Glow effect */
+    transition: filter 0.3s ease;
+    transform-origin: center;
+    transform: scale(var(--creature-scale, 1));
+}
+
+/* Enhanced glow on image hover */
+.creature img:hover {
+    filter: drop-shadow(0 0 20px rgba(135, 206, 235, 0.6));
+}
+
+/* Name label below each creature */
+.creature-name {
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid rgba(135, 206, 235, 0.5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    white-space: nowrap; /* Keep name on one line */
+    transition: all 0.3s ease;
+    min-width: 120px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.creature-description {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translate(-50%, 10px);
+    width: 260px;
+    max-width: 80vw;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(135, 206, 235, 0.5);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.creature:hover .creature-description,
+.creature:focus-within .creature-description {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+/* Swimming animation removed per request */
+
+/* ========================================
+   FLOATING PARTICLES
+   ======================================== */
+
+/* Container for floating particles (plankton/debris effect) */
+.floating-particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Don't block clicks */
+    z-index: 10;
+}
+
+/* Individual particle styling */
+.particle {
+    position: absolute;
+    /* Radial gradient for realistic particle look */
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(135, 206, 235, 0.3));
+    border-radius: 50%; /* Circular shape */
+    animation: float 8s infinite linear; /* Continuous floating */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Soft glow */
+}
+
+/* Floating animation - particles rise from bottom to top */
+@keyframes float {
+    0% { 
+        transform: translateY(100vh) translateX(0) rotate(0deg); 
+        opacity: 0; 
+    }
+    10% { 
+        opacity: 1; /* Fade in */
+    }
+    50% {
+        transform: translateY(50vh) translateX(20px) rotate(180deg);
+        opacity: 1;
+    }
+    90% { 
+        opacity: 1; 
+    }
+    100% { 
+        transform: translateY(-100px) translateX(-20px) rotate(360deg); 
+        opacity: 0; /* Fade out at top */
+    }
+}
+
+/* ========================================
+   SUNLIGHT RAYS EFFECT
+   ======================================== */
+
+/* Sunlight rays - visible only in the sunlight zone (0-200m) */
+.sunlight-rays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1250px; /* Covers first 200m of ocean (sunlight zone) */
+    /* Diagonal gradient to simulate light rays */
+    background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.1) 100%
+    );
+    opacity: 0.6;
+    animation: raysMovement 8s ease-in-out infinite; /* Gentle movement */
+}
+
+/* Animation for sunlight rays - subtle shifting */
+@keyframes raysMovement {
+    0%, 100% {
+        opacity: 0.6;
+        transform: translateX(0);
+    }
+    50% {
+        opacity: 0.8;
+        transform: translateX(10px);
+    }
+}
+
+/* ========================================
+   INTRO TEXT & SCROLL HINT
+   ======================================== */
+
+/* Large intro text at the top of the ocean */
+.intro-text {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    z-index: 1;
+    animation: titleFloat 4s ease-in-out infinite;
+    width: 100%;
+    padding: 0 20px;
+}
+
+
+/* Scroll hint indicator at bottom of screen */
+.scroll-hint {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    z-index: 1000;
+    opacity: 0.8;
+    animation: scrollBounce 2s ease-in-out infinite; /* Bouncing effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    pointer-events: none; /* Don't block clicks */
+    transition: opacity 0.3s ease;
+}
+
+/* Down arrow below scroll hint text */
+.scroll-hint::after {
+    content: '▼';
+    display: block;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+/* Bouncing animation for scroll hint */
+@keyframes scrollBounce {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translateX(-50%) translateY(10px);
+        opacity: 1;
+    }
+}
+
+/* ========================================
+   DEPTH COMPARISONS
+   ======================================== */
+
+/* Depth comparison markers - compare ocean depth to landmarks */
+.depth-comparison {
+    position: absolute;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 14px;
+    border: 2px solid rgba(255, 215, 0, 0.5); /* Gold border */
+    max-width: 200px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for depth comparisons */
+.depth-comparison:hover {
+    transform: scale(1.05);
+    border-color: rgba(255, 215, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* ========================================
+   FOOTER SECTION
+   ======================================== */
+
+/* Footer appears after ocean dive with navigation links */
+.ocean-footer {
+    position: relative;
+    background: linear-gradient(to bottom, #000000, #001a33);
+    color: white;
+    padding: 60px 20px 30px;
+    text-align: center;
+    border-top: 2px solid rgba(135, 206, 235, 0.3);
+    z-index: 2000; /* Above all ocean elements */
+    margin-top: 0;
+}
+
+/* Footer content wrapper - centered with max width */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer main heading */
+.footer-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #87CEEB;
+    text-shadow: 0 0 20px rgba(135, 206, 235, 0.5);
+}
+
+/* Footer description text */
+.footer-content > p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
+/* Grid of footer links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+/* Individual footer link card */
+.footer-link {
+    display: flex;
+    flex-direction: column; /* Stack icon above text */
+    align-items: center;
+    gap: 10px;
+    padding: 25px 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(135, 206, 235, 0.3);
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    min-width: 180px;
+    backdrop-filter: blur(10px); /* Glass effect */
+}
+
+/* Hover effect for footer links - lift up and glow */
+.footer-link:hover {
+    background: rgba(135, 206, 235, 0.15);
+    border-color: rgba(135, 206, 235, 0.6);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(135, 206, 235, 0.3);
+}
+
+/* Icon in footer links */
+.link-icon {
+    font-size: 32px;
+    filter: drop-shadow(0 0 10px rgba(135, 206, 235, 0.5));
+}
+
+/* Text in footer links */
+.link-text {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Copyright section at bottom of footer */
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact Us - Ocean Deep Dive</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .page-container {
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #001a33, #000000);
+            color: white;
+            padding: 80px 20px;
+        }
+        
+        .content-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #87CEEB;
+            font-size: 48px;
+            margin-bottom: 30px;
+            text-shadow: 0 0 20px rgba(135, 206, 235, 0.5);
+        }
+        
+        .contact-form {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 40px;
+            border-radius: 15px;
+            border: 2px solid rgba(135, 206, 235, 0.3);
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #87CEEB;
+            font-weight: 500;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(135, 206, 235, 0.3);
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+        }
+        
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: rgba(135, 206, 235, 0.6);
+        }
+        
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        
+        button {
+            width: 100%;
+            padding: 15px;
+            background: rgba(135, 206, 235, 0.2);
+            border: 2px solid rgba(135, 206, 235, 0.5);
+            border-radius: 8px;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        button:hover {
+            background: rgba(135, 206, 235, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: rgba(135, 206, 235, 0.2);
+            border: 2px solid rgba(135, 206, 235, 0.5);
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background: rgba(135, 206, 235, 0.3);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        <div class="content-wrapper">
+
+            <h1>Contact Us</h1>
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <a href="ocean.html" class="back-link">← Back to Ocean Dive</a>
+        </div>
+    </div>
+</body>
+</html>
+
