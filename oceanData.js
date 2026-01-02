@@ -14,7 +14,7 @@ const oceanData = [
         content: {
             name: "scuba diver",
             description: "Carries compressed air so humans can spend nearly an hour exploring reefs underwater.",
-            image: "assests/scuba diver.png"
+            image: "assets/scuba diver.png"
         }
     },
     {
@@ -25,7 +25,7 @@ const oceanData = [
         content: {
             name: "Sea Turtle",
             description: "Undertakes thousand-mile migrations between feeding grounds and nesting beaches.",
-            image: "assests/sea-turtle.png"
+            image: "assets/sea-turtle.png"
         }
     },
     {
@@ -41,7 +41,7 @@ const oceanData = [
         content: {
             name: "clown fish",
             description: "Lives immune inside sea anemones and can change sex to become the dominant female.",
-            image: "assests/clown-fish.png"
+            image: "assets/clown-fish.png"
         }
     },
     {
@@ -52,7 +52,7 @@ const oceanData = [
         content: {
             name:"Tuna",
             description: "Warm-blooded fish that can sprint faster than 70 km/h while chasing prey.",
-            image: "assests/tuna.png"
+            image: "assets/tuna.png"
         }
     },
     {
@@ -63,7 +63,7 @@ const oceanData = [
         content: {
             name:"greem sea turtle",
             description: "Green sea turtles migrate thousands of miles between feeding and nesting areas.",
-            image: "assests/green turtle.png"
+            image: "assets/green turtle.png"
         }
     },
     {
@@ -74,7 +74,7 @@ const oceanData = [
         content: {
             name:"reef shark",
             description: "Constantly swims around coral reefs to force water over its gills for oxygen.",
-            image: "assests/reef shark.png"
+            image: "assets/reef shark.png"
         }
     },
         {
@@ -85,7 +85,7 @@ const oceanData = [
         content: {
             name:"blue crab",
             description: "Can swim using paddle-like back legs and spends life in brackish coastal estuaries.",
-            image: "assests/blue crab.png"
+            image: "assets/blue crab.png"
         }
     },
     {
@@ -96,7 +96,7 @@ const oceanData = [
         content: {
             name:"Bottle Nose Dolphin",
             description: "Intelligent marine mammals known for their playful behavior.",
-            image: "assests/bottle nose dolphin-48411_1280.png"
+            image: "assets/bottle nose dolphin-48411_1280.png"
         }
     },
         {
@@ -107,7 +107,7 @@ const oceanData = [
         content: {
             name:"nudibranch",
             description: "Absorbs toxins from prey and stores them in its own body as chemical armor.",
-            image: "assests/nudibarnch.png"
+            image: "assets/nudibarnch.png"
         }
     },
     {
@@ -123,7 +123,7 @@ const oceanData = [
         content: {
             name:"coral",
             description: "Hosts symbiotic algae that supply most of the coral’s energy through photosynthesis.",
-            image: "assests/coral.png"
+            image: "assets/coral.png"
         }
     },
     {
@@ -134,7 +134,7 @@ const oceanData = [
         content: {
             name:"Humpback whale",
             description: "Males sing complex songs lasting 20 minutes that can travel across entire oceans.",
-            image: "assests/humpback.png"
+            image: "assets/humpback.png"
         }
     },
     {
@@ -145,7 +145,7 @@ const oceanData = [
         content: {
             name:"parrot fish",
             description: "Chews coral rock into fine sand, producing hundreds of kilograms each year.",
-            image: "assests/parrotfish.png"
+            image: "assets/parrotfish.png"
         }
     },
         {
@@ -156,7 +156,7 @@ const oceanData = [
         content: {
             name:"spinner Dolphin",
             description: "Performs rapid spinning leaps that may communicate or shake off parasites.",
-            image: "assests/spinner Dolphin.png"
+            image: "assets/spinner Dolphin.png"
         }
     },
         {
@@ -167,7 +167,7 @@ const oceanData = [
         content: {
             name:"mahi mahi",
             description: "Reaches adulthood in under a year and constantly changes color when excited.",
-            image: "assests/Mahi Mahi.png"
+            image: "assets/Mahi Mahi.png"
         }
     },
         {
@@ -178,7 +178,7 @@ const oceanData = [
         content: {
             name:"blue whale",
             description: "Largest animal ever known—its heart alone can weigh as much as a small car.",
-            image: "assests/blue whale.png"
+            image: "assets/blue whale.png"
         }
     },
         {
@@ -189,7 +189,7 @@ const oceanData = [
         content: {
             name:"Porcupine fish",
             description: "Puffs into a spiny sphere and carries tetrodotoxin strong enough to kill predators.",
-            image: "assests/porcupine fish.png"
+            image: "assets/porcupine fish.png"
         }
     },
     {
@@ -205,7 +205,7 @@ const oceanData = [
         content: {
             name:"cone snail",
             description: "Fires a hollow venom dart that can paralyze fish instantly despite its slow crawl.",
-            image: "assests/cone snail.png"
+            image: "assets/cone snail.png"
         }
     },
         {
@@ -216,7 +216,7 @@ const oceanData = [
         content: {
             name:"sea snake",
             description: "Possesses paddle tails for swimming but still must surface regularly to breathe air.",
-            image: "assests/sea-snake.png"
+            image: "assets/sea-snake.png"
         }
     },
         {
@@ -227,7 +227,7 @@ const oceanData = [
         content: {
             name:"butterfly fish",
             description: "Often travels in lifelong pairs and uses eye-like spots to confuse predators.",
-            image: "assests/butterflyfish.png"
+            image: "assets/butterflyfish.png"
         }
     },
     {
@@ -238,7 +238,7 @@ const oceanData = [
         content: {
             name:"Blue Marlin",
             description: "Fast and powerful fish, one of the ocean's apex predators.",
-            image: "assests/blue fin marlin.png"
+            image: "assets/blue fin marlin.png"
         }
     },
             {
@@ -249,7 +249,7 @@ const oceanData = [
         content: {
             name:"Hawksbill Turtle",
             description: "Critically endangered turtle whose narrow beak lets it pry sponges from crevices.",
-            image: "assests/Hawksbill.png"
+            image: "assets/Hawksbill.png"
         }
     },
                 {
@@ -260,7 +260,7 @@ const oceanData = [
         content: {
             name:"Flying Fish",
             description: "Can glide over 200 meters using enlarged fins after building speed underwater.",
-            image: "assests/flying fish.png"
+            image: "assets/flying fish.png"
         }
     },
         {
@@ -292,7 +292,7 @@ const oceanData = [
         content: {
             name: "Lanternfish",
             description: "Small bioluminescent fish that migrate vertically each night to feed.",
-            image: "assests/lanternfish.png"
+            image: "assets/lanternfish.png"
         }
     },
         {
@@ -303,7 +303,7 @@ const oceanData = [
         content: {
             name: "Glass Octopus",
             description: "Transparent body reveals its internal organs, making it nearly invisible in the water.",
-            image: "assests/sGlass Octopus.png"
+            image: "assets/sGlass Octopus.png"
         }
     },
             {
@@ -314,7 +314,7 @@ const oceanData = [
         content: {
             name: "Vampire Squid",
             description: "Uses glowing blue light and webbed arms to startle predators instead of ink.",
-            image: "assests/Vampire Squid.png"
+            image: "assets/Vampire Squid.png"
         }
     },
             {
@@ -325,7 +325,7 @@ const oceanData = [
         content: {
             name: "Hatchetfish",
             description: "Has light-producing organs on its belly to hide its silhouette from hunters below.",
-            image: "assests/hatchetface.png"
+            image: "assets/hatchetface.png"
         }
     },
     {
@@ -336,7 +336,7 @@ const oceanData = [
         content: {
             name: "Anglerfish",
             description: "Deep-sea predator with a bioluminescent lure dangling from its head.",
-            image: "assests/anglerfish.png"
+            image: "assets/anglerfish.png"
         }
     },
     {
@@ -347,7 +347,7 @@ const oceanData = [
         content: {
             name: "Beardfish",
             description: "Named for their chin barbels used to sense prey in the dark.",
-            image: "assests/Beardfish.png"
+            image: "assets/Beardfish.png"
         }
     },
             {
@@ -358,7 +358,7 @@ const oceanData = [
         content: {
             name: "Goblin Shark",
             description: "Shoots its jaw forward on extendable ligaments to snatch prey faster than a blink.",
-            image: "assests/goblin-shark.png"
+            image: "assets/goblin-shark.png"
         }
     },
             {
@@ -369,7 +369,7 @@ const oceanData = [
         content: {
             name: "Stoplight Loosejaw",
             description: "One of the few fish that shines red light, letting it see prey that cannot see it back.",
-            image: "assests/loosejaw.png"
+            image: "assets/loosejaw.png"
         }
     },
                 {
@@ -380,7 +380,7 @@ const oceanData = [
         content: {
             name: "barreleye fish",
             description: "Has a transparent dome head with tubular eyes that swivel upward for spotting silhouettes.",
-            image: "assests/barreleye fish.png"
+            image: "assets/barreleye fish.png"
         }
     },
             {
@@ -391,7 +391,7 @@ const oceanData = [
         content: {
             name: "Bristlemouth Fish",
             description: "Likely the most abundant vertebrate on Earth, armed with rows of needle-like teeth.",
-            image: "assests/bristle mouth.png"
+            image: "assets/bristle mouth.png"
         }
     },
             {
@@ -402,7 +402,7 @@ const oceanData = [
         content: {
             name: "Glass Squid",
             description: "Nearly transparent body dotted with photophores helps it disappear in the dim twilight.",
-            image: "assests/glass squid.png"
+            image: "assets/glass squid.png"
         }
     },
     {
@@ -413,7 +413,7 @@ const oceanData = [
         content: {
             name: "Pearleye Fish",
             description: "Its tubular eyes can rotate forward or upward like periscopes to track prey above.",
-            image: "assests/Pearleye.png"
+            image: "assets/Pearleye.png"
         }
     },
     {
@@ -429,7 +429,7 @@ const oceanData = [
         content: {
             name: " Umbrella Octopus",
             description: "Spreads a web of skin between its arms like a cape and glows softly to confuse hunters.",
-            image: "assests/Umbrella Octopus.png"
+            image: "assets/Umbrella Octopus.png"
         }
     },
         {
@@ -440,7 +440,7 @@ const oceanData = [
         content: {
             name: "Bathylychnops",
             description: "Possesses large light organs near the eyes that work like headlights in the dark.",
-            image: "assests/Bathylychnops.png"
+            image: "assets/Bathylychnops.png"
         }
     },
         {
@@ -451,7 +451,7 @@ const oceanData = [
         content: {
             name: "Snipe Eel",
             description: "Extremely long beak lined with outward-facing teeth strips shrimp from the water column.",
-            image: "assests/Snipe Eel.png"
+            image: "assets/Snipe Eel.png"
         }
     },
         {
@@ -462,7 +462,7 @@ const oceanData = [
         content: {
             name: " Black Dragonfish",
             description: "Females carry a glowing chin barbel lure while males remain tiny and short-lived.",
-            image: "assests/Black Dragonfish.png"
+            image: "assets/Black Dragonfish.png"
         }
     },
         {
@@ -473,7 +473,7 @@ const oceanData = [
         content: {
             name: "Tomopteris ",
             description: "Transparent planktonic worm known for producing rare yellow bioluminescent flashes.",
-            image: "assests/Tomopteris.png"
+            image: "assets/Tomopteris.png"
         }
     },
         {
@@ -484,7 +484,7 @@ const oceanData = [
         content: {
             name: "Shining Tubeshoulder",
             description: "Can squirt glowing mucus out of shoulder glands to distract predators.",
-            image: "assests/Shining Tubeshoulder.png"
+            image: "assets/Shining Tubeshoulder.png"
         }
     },
     {
@@ -500,7 +500,7 @@ const oceanData = [
         content: {
             name: "Telescopefish",
             description: "Forward-pointing tubular eyes give it binocular vision for striking prey above.",
-            image: "assests/Telescopefish.png"
+            image: "assets/Telescopefish.png"
         }
     },
     {
@@ -511,7 +511,7 @@ const oceanData = [
         content: {
             name: "Cutlass Fish",
             description: "Silver elongated fish with sharp teeth resembling a blade.",
-            image: "assests/Cutlass-fish.png"
+            image: "assets/Cutlass-fish.png"
         }
     },
     {
@@ -522,7 +522,7 @@ const oceanData = [
         content: {
             name: "Cyclothone",
             description: "One of the most abundant vertebrates on Earth.",
-            image: "assests/Cyclothone.png"
+            image: "assets/Cyclothone.png"
         }
     },
     // MIDNIGHT ZONE (1000-4000m)
@@ -544,7 +544,7 @@ const oceanData = [
         content: {
             name: "Giant Squid",
             description: "Possesses dinner-plate-sized eyes and two 8m feeding tentacles tipped with barbed suckers.",
-            image: "assests/giant squid.png"
+            image: "assets/giant squid.png"
         }
     },
     {
@@ -555,7 +555,7 @@ const oceanData = [
         content: {
             name: "Stoplight Loosejaw",
             description: "Deep-sea predator with bioluminescent red and green lights used to hunt in total darkness.",
-            image: "assests/stoplight-loosejaw.png"
+            image: "assets/stoplight-loosejaw.png"
         }
     },
     {
@@ -566,7 +566,7 @@ const oceanData = [
         content: {
             name: "Cookiecutter Shark",
             description: "Small shark that gouges circular chunks of flesh from larger animals.",
-            image: "assests/cookiecutter-shark.png"
+            image: "assets/cookiecutter-shark.png"
         }
     },
     {
@@ -577,7 +577,7 @@ const oceanData = [
         content: {
             name: "Deep-sea Hatchetfish",
             description: "Tiny fish with light-producing organs that make them nearly invisible from below.",
-            image: "assests/deep-sea-hatchetfish.png"
+            image: "assets/deep-sea-hatchetfish.png"
         }
     },
         {
@@ -588,7 +588,7 @@ const oceanData = [
         content: {
             name: " Fangtooth Fish",
             description: "Has the largest teeth relative to body size of any fish, so it must hinge its jaws to close.",
-            image: "assests/Fangtooth Fish.png"
+            image: "assets/Fangtooth Fish.png"
         }
     },
         {
@@ -599,7 +599,7 @@ const oceanData = [
         content: {
             name: "Dumbo Octopus",
             description: "Flaps ear-like fins to glide gracefully above the seafloor at crushing pressures.",
-            image: "assests/dumbo octopus.png"
+            image: "assets/dumbo octopus.png"
         }
     },
         {
@@ -610,7 +610,7 @@ const oceanData = [
         content: {
             name: "Deep-sea Dragonfish",
             description: "Glowing chin barbel and invisibly red bioluminescence make it a stealth hunter.",
-            image: "assests/Deep-sea Dragonfish.png"
+            image: "assets/Deep-sea Dragonfish.png"
         }
     },
         {
@@ -621,7 +621,7 @@ const oceanData = [
         content: {
             name: "Barreleye Fish",
             description: "Transparent dome protects eyes that swivel upward to track prey through darkness.",
-            image: "assests/barreleye fish.png"
+            image: "assets/barreleye fish.png"
         }
     },
         {
@@ -632,7 +632,7 @@ const oceanData = [
         content: {
             name: "Frilled Shark",
             description: "Has 300 backward-facing teeth in 25 rows and lunges forward like a snake.",
-            image: "assests/frilled shark.png"
+            image: "assets/frilled shark.png"
         }
     },
     {
@@ -643,7 +643,7 @@ const oceanData = [
         content: {
             name: "Colossal Squid",
             description: "Largest known squid species with enormous eyes adapted for deep waters.",
-            image: "assests/colossal squid.png"
+            image: "assets/colossal squid.png"
         }
     },
     {
@@ -659,7 +659,7 @@ const oceanData = [
         content: {
             name: "Deep Sea Dragonfish",
             description: "Fierce predator with sharp teeth and bioluminescent organs.",
-            image: "assests/deep sea gragon fish.png"
+            image: "assets/deep sea gragon fish.png"
         }
     },
     {
@@ -670,7 +670,7 @@ const oceanData = [
         content: {
             name: "Pelican Eel",
             description: "Known for its enormous mouth that can gulp prey larger than itself.",
-            image: "assests/pelican-eel.png"
+            image: "assets/pelican-eel.png"
         }
     },
     {
@@ -681,7 +681,7 @@ const oceanData = [
         content: {
             name: "Deep-sea Jellyfish (Atolla wyvillei)",
             description: "Produces bright bioluminescent rings to distract predators.",
-            image: "assests/atolla-jellyfish.png"
+            image: "assets/atolla-jellyfish.png"
         }
     },
     {
@@ -692,7 +692,7 @@ const oceanData = [
         content: {
             name: "Viperfish",
             description: "One of the fiercest predators in the deep sea, with long fangs and a glowing lure.",
-            image: "assests/viperfish.png"
+            image: "assets/viperfish.png"
         }
     },
         {
@@ -703,7 +703,7 @@ const oceanData = [
         content: {
             name: "Snaggletooth Fish",
             description: "Crooked jaws lined with fangs and light organs let it ambush prey in the dark.",
-            image: "assests/Snaggletooth Fish.png"
+            image: "assets/Snaggletooth Fish.png"
         }
     },
         {
@@ -714,7 +714,7 @@ const oceanData = [
         content: {
             name: "Bathyraja abyssicola",
             description: "Deep-sea skate that glides over muddy bottoms, sensing prey with wing-tip nerves.",
-            image: "assests/Bathyraja abyssicola.png"
+            image: "assets/Bathyraja abyssicola.png"
         }
     },
         {
@@ -725,7 +725,7 @@ const oceanData = [
         content: {
             name: "Flashlight Fish",
             description: "Hides and reveals bacteria-powered light organs under its eyes like headlights.",
-            image: "assests/flashlight-fish.png"
+            image: "assets/flashlight-fish.png"
         }
     },
         {
@@ -736,7 +736,7 @@ const oceanData = [
         content: {
             name: "Deep-sea Shrimp",
             description: "Some species can spit glowing blue chemicals to startle predators and escape.",
-            image: "assests/deep-sea-shrimp.png"
+            image: "assets/deep-sea-shrimp.png"
         }
     },
         {
@@ -747,7 +747,7 @@ const oceanData = [
         content: {
             name: "Chimaera",
             description: "Cartilaginous relative of sharks with venomous dorsal spines and grinding tooth plates.",
-            image: "assests/chimaera-fish.png"
+            image: "assets/chimaera-fish.png"
         }
     },
         {
@@ -758,7 +758,7 @@ const oceanData = [
         content: {
             name: "Swallower Fish",
             description: "Elastic stomach lets it gulp prey two to three times its own size whole.",
-            image: "assests/Swallower Fish.png"
+            image: "assets/Swallower Fish.png"
         }
     },
     {
@@ -774,7 +774,7 @@ const oceanData = [
         content: {
             name: "Lampocteis",
             description: "Bioluminescent comb jelly floating in the deep ocean.",
-            image: "assests/Lampocteis cruenruventer.png"
+            image: "assets/Lampocteis cruenruventer.png"
         }
     },
     {
@@ -785,7 +785,7 @@ const oceanData = [
         content: {
             name: "Pacific Grenadier",
             description: "Deep-sea fish that scavenges on the ocean floor.",
-            image: "assests/Pacific-grenadier.png"
+            image: "assets/Pacific-grenadier.png"
         }
     },
         {
@@ -796,7 +796,7 @@ const oceanData = [
         content: {
             name: "Tripodfish",
             description: "Props itself upright on elongated fin rays and waits for drifting prey to brush past.",
-            image: "assests/tripod fiah.png"
+            image: "assets/tripod fiah.png"
         }
     },
     {
@@ -807,7 +807,7 @@ const oceanData = [
         content: {
             name: "Dragonfish",
             description: "Produces red bioluminescent light invisible to most other species.",
-            image: "assests/dragonfish.png"
+            image: "assets/dragonfish.png"
         }
     },
     {
@@ -818,7 +818,7 @@ const oceanData = [
         content: {
             name: "Tripodfish",
             description: "Balances on long fins like legs while waiting motionless for food.",
-            image: "assests/tripod fiah.png"
+            image: "assets/tripod fiah.png"
         }
     },
     {
@@ -839,7 +839,7 @@ const oceanData = [
         content: {
             name: "Rattail",
             description: "Also called grenadiers, they sweep the seafloor with sensitive barbels for carrion.",
-            image: "assests/Rattail.png"
+            image: "assets/Rattail.png"
         }
     },
     // ABYSSAL ZONE (4000-6000m)
@@ -861,7 +861,7 @@ const oceanData = [
         content: {
             name: "Deep-sea Cucumber",
             description: "Sea cucumbers that crawl along the seafloor, processing sediment.",
-            image: "assests/deep sea cucumber.png"
+            image: "assets/deep sea cucumber.png"
         }
     },
     {
@@ -872,7 +872,7 @@ const oceanData = [
         content: {
             name: "Dumbo Octopus",
             description: "Named for its ear-like fins, this octopus glides gracefully near the seafloor.",
-            image: "assests/dumbo octopus.png"
+            image: "assets/dumbo octopus.png"
         }
     },
     {
@@ -883,7 +883,7 @@ const oceanData = [
         content: {
             name: "Sea Dandelion",
             description: "A colonial organism resembling a flower, drifting slowly through the abyss.",
-            image: "assests/sea-dandelion.png"
+            image: "assets/sea-dandelion.png"
         }
     },
         {
@@ -894,7 +894,7 @@ const oceanData = [
         content: {
             name: "Tripod Fish",
             description: "Perches motionless on three elongated fins that act like legs and sensors.",
-            image: "assests/tripod fiah.png"
+            image: "assets/tripod fiah.png"
         }
     },
         {
@@ -905,7 +905,7 @@ const oceanData = [
         content: {
             name: "Sea Pig",
             description: "Inflates its body and uses tube feet to sift organic particles from abyssal mud.",
-            image: "assests/sea pig.png"
+            image: "assets/sea pig.png"
         }
     },
         {
@@ -916,7 +916,7 @@ const oceanData = [
         content: {
             name: "Yeti Crab",
             description: "Hairy claws cultivate bacteria it later scrapes off and eats near hydrothermal vents.",
-            image: "assests/yeti crab.png"
+            image: "assets/yeti crab.png"
         }
     },
     {
@@ -927,7 +927,7 @@ const oceanData = [
         content: {
             name: "Giant Isopod",
             description: "A huge deep-sea relative of the pill bug, feeding on decaying matter.",
-            image: "assests/giant-isopod.png"
+            image: "assets/giant-isopod.png"
         }
     },
     {
@@ -943,7 +943,7 @@ const oceanData = [
         content: {
             name: "Cusk Eel",
             description: "Eel-like fish that uses sensitive lateral lines to navigate pitch-black plains.",
-            image: "assests/cusk eel.png"
+            image: "assets/cusk eel.png"
         }
     },
         {
@@ -954,7 +954,7 @@ const oceanData = [
         content: {
             name: "Abyssal Grenadier",
             description: "Long-tailed scavenger that detects the faint scent of carcasses drifting down.",
-            image: "assests/Abyssal Grenadier.png"
+            image: "assets/Abyssal Grenadier.png"
         }
     },
         {
@@ -965,7 +965,7 @@ const oceanData = [
         content: {
             name: "Harp Sponge",
             description: "Fan-shaped sponge whose silica hooks snag tiny crustaceans for nourishment.",
-            image: "assests/Harp Sponge.png"
+            image: "assets/Harp Sponge.png"
         }
     },
     {
@@ -976,7 +976,7 @@ const oceanData = [
         content: {
             name: "Deep-sea Anglerfish",
             description: "Female anglerfish host parasitic males that fuse into their bodies.",
-            image: "assests/anglerfish.png"
+            image: "assets/anglerfish.png"
         }
     },
     {
@@ -987,7 +987,7 @@ const oceanData = [
         content: {
             name: "Sea Spider",
             description: "Spindly-legged creature that walks across the abyssal plain.",
-            image: "assests/sea-spider.png"
+            image: "assets/sea-spider.png"
         }
     },
     {
@@ -1008,7 +1008,7 @@ const oceanData = [
         content: {
             name: "Cirrothauma murrayi",
             description: "Blind, gelatinous octopus with umbrella-like webbing between its arms.",
-            image: "assests/CirrothaumaMurrayi.png"
+            image: "assets/CirrothaumaMurrayi.png"
         }
     },
     {
@@ -1019,7 +1019,7 @@ const oceanData = [
         content: {
             name: "Carnivorous Tunicates",
             description: "Unusual filter feeders that capture prey in the abyss.",
-            image: "assests/Carnivorous-Tunicates.png"
+            image: "assets/Carnivorous-Tunicates.png"
         }
     },
     {
@@ -1030,7 +1030,7 @@ const oceanData = [
         content: {
             name: "Psychrolutes Marcidus",
             description: "Also known as the blobfish, adapted to extreme pressures.",
-            image: "assests/Psychrolutes-Marcidus.png"
+            image: "assets/Psychrolutes-Marcidus.png"
         }
     },
     {
@@ -1041,7 +1041,7 @@ const oceanData = [
         content: {
             name: "Black Swallower",
             description: "Can swallow prey larger than itself.",
-            image: "assests/Real-black-swallower.png"
+            image: "assets/Real-black-swallower.png"
         }
     },
         {
@@ -1052,7 +1052,7 @@ const oceanData = [
         content: {
             name: "Abyssal Snailfish",
             description: "Slimy body lacks scales and tolerates pressures over 800 times surface levels.",
-            image: "assests/snail fish.png"
+            image: "assets/snail fish.png"
         }
     },
         {
@@ -1063,7 +1063,7 @@ const oceanData = [
         content: {
             name: "Abyssal Cusk Eel",
             description: "Pairs of parents guard eggs in burrows despite the near-freezing darkness.",
-            image: "assests/Abyssal Cusk Eel.png"
+            image: "assets/Abyssal Cusk Eel.png"
         }
     },
         {
@@ -1074,7 +1074,7 @@ const oceanData = [
         content: {
             name: "Sea Spider",
             description: "Organs extend into its long legs because its body is too small to hold them.",
-            image: "assests/sea spider.png"
+            image: "assets/sea spider.png"
         }
     },
         {
@@ -1085,7 +1085,7 @@ const oceanData = [
         content: {
             name: "Zombie Worm",
             description: "No mouth—releases acid to bore whale bones and lets bacteria digest the fat.",
-            image: "assests/Zombie Worm.png"
+            image: "assets/Zombie Worm.png"
         }
     },
         {
@@ -1096,7 +1096,7 @@ const oceanData = [
         content: {
             name: "Pancake Batfish",
             description: "Flat fish that walks on limb-like fins and wiggles a lure to ambush prey.",
-            image: "assests/pancake batfish.png"
+            image: "assets/pancake batfish.png"
         }
     },
     // HADAL ZONE (6000-11000m)
@@ -1118,7 +1118,7 @@ const oceanData = [
         content: {
             name: "Mariana Snailfish",
             description: "Holds the record for deepest living fish, adapted to extreme pressure.",
-            image: "assests/Mariana Snailfish.png"
+            image: "assets/Mariana Snailfish.png"
         }
     },
         {
@@ -1129,7 +1129,7 @@ const oceanData = [
         content: {
             name: "Hadal Amphipods",
             description: "Scavenging crustaceans that swarm around carcasses falling into trenches.",
-            image: "assests/scavenger amphipoid.png"
+            image: "assets/scavenger amphipoid.png"
         }
     },
     {
@@ -1140,7 +1140,7 @@ const oceanData = [
         content: {
             name: "Hadal Amphipod",
             description: "Crustaceans that survive crushing pressure and feed on sinking organic debris.",
-            image: "assests/hadal-amphipod.png"
+            image: "assets/hadal-amphipod.png"
         }
     },
         {
@@ -1151,7 +1151,7 @@ const oceanData = [
         content: {
             name: "Eelpout",
             description: "Slow-moving fish with antifreeze proteins in its blood to survive near-freezing water.",
-            image: "assests/Eelpout.png"
+            image: "assets/Eelpout.png"
         }
     },
     {
@@ -1167,7 +1167,7 @@ const oceanData = [
         content: {
             name: "Hirondellea gigas",
             description: "Hadal amphipod that carves calcium from seafloor sediments to build its exoskeleton.",
-            image: "assests/Hirondellea gigas.png"
+            image: "assets/Hirondellea gigas.png"
         }
     },
         {
@@ -1178,7 +1178,7 @@ const oceanData = [
         content: {
             name: "Liparid Fish ",
             description: "Family of snailfish with gelatinous bodies that withstand pressures over 1,000 atmospheres.",
-            image: "assests/Liparid Fish.png"
+            image: "assets/Liparid Fish.png"
         }
     },
         {
@@ -1189,7 +1189,7 @@ const oceanData = [
         content: {
             name: "Hadal Snailfish",
             description: "Deepest-known vertebrate, filmed cruising at nearly 8,200 meters.",
-            image: "assests/Pancake Batfish.png"
+            image: "assets/Pancake Batfish.png"
         }
     },
         {
@@ -1200,7 +1200,7 @@ const oceanData = [
         content: {
             name: "Polychaete Worms",
             description: "Segmented worms that anchor to trench walls and filter tiny particles from the water.",
-            image: "assests/Polychaete Worms.png"
+            image: "assets/Polychaete Worms.png"
         }
     },
         {
@@ -1211,7 +1211,7 @@ const oceanData = [
         content: {
             name: "Tiny Foraminifera",
             description: "Single-celled organisms that build intricate shells from dissolved minerals even at 8 km down.",
-            image: "assests/Tiny Foraminifera.png"
+            image: "assets/Tiny Foraminifera.png"
         }
     },
     {
@@ -1222,7 +1222,7 @@ const oceanData = [
         content: {
             name: "Deep-sea Ctenophore",
             description: "Gelatinous comb jelly with rainbow-colored bioluminescence.",
-            image: "assests/deep-sea-ctenophore.png"
+            image: "assets/deep-sea-ctenophore.png"
         }
     },
     {
@@ -1238,7 +1238,7 @@ const oceanData = [
         content: {
             name: "Hadal Polychaete Worm",
             description: "Segmented worm species adapted to survive crushing depths and low oxygen.",
-            image: "assests/hadal-worm.png"
+            image: "assets/hadal-worm.png"
         }
     },
     {
@@ -1249,7 +1249,7 @@ const oceanData = [
         content: {
             name: "Bacterial Mats",
             description: "Colonies of chemosynthetic bacteria thriving on hydrothermal vents.",
-            image: "assests/bacterial-mats.jpg"
+            image: "assets/bacterial-mats.jpg"
         }
     },
     {
@@ -1265,7 +1265,7 @@ const oceanData = [
         content: {
             name: "challenger subamrine",
             description: "Deepsea Challenger (DCV 1) is a deep-diving submersible designed to reach the bottom of the Challenger Deep, the deepest-known point on Earth. ",
-            image: "assests/challenger-submersible.png"
+            image: "assets/challenger-submersible.png"
         }
     },
     {
@@ -1281,7 +1281,7 @@ const oceanData = [
         content: {
             name: "Pressure-tolerant bacteria",
             description: "Holds the record for deepest living fish, adapted to extreme pressure.",
-            image: "assests/Pressure-tolerant bacteria.png"
+            image: "assets/Pressure-tolerant bacteria.png"
         }
     },
     {
